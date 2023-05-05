@@ -1,7 +1,10 @@
 body {
     margin: 0px;
-    background-color: pink;
+    background: linear-gradient(to bottom, #00B4DB, yellow);
+   
 }
+
+
 
 .container {
     display: flex;
@@ -12,24 +15,78 @@ body {
 
 h1 {
     font-family: fantasy;
-    font-size: 3em;
+    font-size: 4em;
     border-bottom: 2px solid green;
     border-right: 2px solid green;
-    width: 500px;
+    /* width: 700px; */
     text-align: center;
-    box-shadow: 4px 4px 5px grey;
+    /* box-shadow: 4px 4px 5px rgb(39, 60, 164); */
     margin-top: 10px;
+
+background-color: #ddf1fb;
+    text-shadow: 2px 2px 0px #000000;
+    padding: 10px;
+    border-radius: 50px;
 
 }
 
 img {
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
     margin: 10px;
     transition: all 1s;
+    /* flex: 1 1 200px;
+        margin: 10px; */
+        /* float: right;
+            margin-right: 20px; */
+  
 
+}
+
+
+/* .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+} */
+
+
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* background-color: #000; */
+    animation: spin 5s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 img:hover {
     transform: scale(1.1)
+}
+
+.illustration {
+    /* width: 100px; */
+        height: auto;
+        /* margin-bottom: 10px; */
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
 }
