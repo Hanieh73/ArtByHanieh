@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background: linear-gradient(to bottom, #00B4DB, yellow);
+    background: linear-gradient(to bottom, #66c2a5, #00B4DB);
    
 }
 
@@ -23,18 +23,25 @@ h1 {
     /* box-shadow: 4px 4px 5px rgb(39, 60, 164); */
     margin-top: 10px;
 
-background-color: #ddf1fb;
+background-color: rgb(189, 231, 231);
     text-shadow: 2px 2px 0px #000000;
     padding: 10px;
     border-radius: 50px;
 
 }
 
-img {
+
+#illustration-img {
+ /* padding-top:-20px; */
+}
+
+.my-img {
+    border: 5px solid black;
     width: 500px;
     height: 300px;
     margin: 10px;
     transition: all 1s;
+  
     /* flex: 1 1 200px;
         margin: 10px; */
         /* float: right;
@@ -76,6 +83,8 @@ img {
 img:hover {
     transform: scale(1.1)
 }
+
+
 
 .illustration {
     /* width: 100px; */
